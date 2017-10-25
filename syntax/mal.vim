@@ -18,7 +18,7 @@ syntax keyword malCond cond
 syntax keyword malRepeat map
 syntax keyword malDefine def! defmacro!
 syntax keyword malMacro -> ->> and cond or
-syntax keyword malFunc * + - / = < <= > >= nil? true? false? symbol symbol? string? keyword keyword? pr-str str prn println readline read-string slurp eval list list? vector vector? hash-map map? assoc dissoc get contains? keys vals sequential? cons concat nth first rest empty? count apply map conj seq with-meta meta atom atom? deref reset! swap!
+syntax keyword malFunc * + - / = < <= > >= nil? true? false? symbol symbol? string? keyword keyword? number? fn? macro? pr-str str prn println readline read-string slurp eval list list? vector vector? hash-map map? assoc dissoc get contains? keys vals sequential? cons concat nth first rest empty? count apply map conj seq with-meta meta atom atom? deref reset! swap!
 syntax keyword malVariable *ARGV*
 
 " Keywords are symbols:
